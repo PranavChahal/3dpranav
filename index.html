@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pranav Chahal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Art Gallery - Pranav Chahal</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+        <section id="home" class="hero" style="background-image: url(bg.png); ;">
+            <div class="hero-content">
+                <h2 style="color: black;">Digital Art Collection</h2>
+                <p style="color: black;">by : Pranav Chahal</p>
+            <a href="#gallery" class="btn">Explore Gallery</a>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <h2></h2>
+        <div class="gallery-grid">
+            <div class="gallery-item" onclick="openModal('skull.png')">
+                <img src="skull.png" alt="Artwork 1">
+                <div class="overlay">
+                    <h3>Skull on fire</h3>
+                </div>
+            </div>
+            <div class="gallery-item" onclick="openModal('Untitled design.jpg')">
+                <img src="Untitled design.jpg" alt="Artwork 2">
+                <div class="overlay">
+                    <h3>Tesla</h3>
+                </div>
+            </div>
+            <div class="gallery-item" onclick="openModal('Screenshot 2023-10-25 at 9.32.15 PM.png')">
+                <img src="Screenshot 2023-10-25 at 9.32.15 PM.png" alt="Artwork 3">
+                <div class="overlay">
+                    <h3>Bat tower</h3>
+                </div>
+            </div>
+            <div class="gallery-item" onclick="openModal('2seater.png')">
+                <img src="2seater.png" alt="Artwork 1">
+                <div class="overlay">
+                    <h3>Pod</h3>
+                </div>
+            </div>
+            <div class="gallery-item" onclick="openModal('arc reactor.png')">
+                <img src="arc reactor.png" alt="Artwork 2">
+                <div class="overlay">
+                    <h3>Arc Reactor</h3>
+                </div>
+            </div>
+            <div class="gallery-item" onclick="openModal('bdsc.png')">
+                <img src="bdsc.png" alt="Artwork 3">
+                <div class="overlay">
+                    <h3>Robots</h3>
+                </div>
+            </div>
+            <div class="gallery-item" onclick="openModal('constr bot.png')">
+                <img src="constr bot.png" alt="Artwork 1">
+                <div class="overlay">
+                    <h3>Construction Bot</h3>
+                </div>
+            </div>
+            <div class="gallery-item" onclick="openModal('oldcomp.png')">
+                <img src="oldcomp.png" alt="Artwork 2">
+                <div class="overlay">
+                    <h3>Old Computer</h3>
+                </div>
+            </div>
+            <div class="gallery-item" onclick="openModal('cube.png')">
+                <img src="cube.png" alt="Artwork 3">
+                <div class="overlay">
+                    <h3>Mythical Cube</h3>
+                </div>
+            </div>
+            <div class="gallery-item" onclick="openModal('dhobi3.png')">
+                <img src="dhobi3.png" alt="Artwork 1">
+                <div class="overlay">
+                    <h3>Bot</h3>
+                </div>
+            </div>
+            <div class="gallery-item" onclick="openModal('docking port.png')">
+                <img src="docking port.png" alt="Artwork 2">
+                <div class="overlay">
+                    <h3>Docking Port for spaceships</h3>
+                </div>
+            </div>
+            <div class="gallery-item" onclick="openModal('ect. construction.png')">
+                <img src="ect. construction.png" alt="Artwork 3">
+                <div class="overlay">
+                    <h3>Construction Bot</h3>
+                </div>
+            </div>
+            <div class="gallery-item" onclick="openModal('ferrari.png')">
+                <img src="ferrari.png" alt="Artwork 1">
+                <div class="overlay">
+                    <h3>Ferrari 812 Superfast</h3>
+                </div>
+            </div>
+            <div class="gallery-item" onclick="openModal('finish.png')">
+                <img src="finish.png" alt="Artwork 2">
+                <div class="overlay">
+                    <h3>Robot</h3>
+                </div>
+            </div>
+            <div class="gallery-item" onclick="openModal('gamechar.png')">
+                <img src="gamechar.png" alt="Artwork 3">
+                <div class="overlay">
+                    <h3>Character</h3>
+                </div>
+            </div>
+            <div class="gallery-item" onclick="openModal('gearengine.png')">
+                <img src="gearengine.png" alt="Artwork 1">
+                <div class="overlay">
+                    <h3>Rotor Engine</h3>
+                </div>
+            </div>
+            <div class="gallery-item" onclick="openModal('guitar.png')">
+                <img src="guitar.png" alt="Artwork 2">
+                <div class="overlay">
+                    <h3>Guitar</h3>
+                </div>
+            </div>
+            <div class="gallery-item" onclick="openModal('gun.png')">
+                <img src="gun.png" alt="Artwork 3">
+                <div class="overlay">
+                    <h3>Alien Gun</h3>
+                </div>
+            </div>
+            <div class="gallery-item" onclick="openModal('health.png')">
+                <img src="health.png" alt="Artwork 1">
+                <div class="overlay">
+                    <h3>Robot</h3>
+                </div>
+            </div>
+            <div class="gallery-item" onclick="openModal('impala.png')">
+                <img src="impala.png" alt="Artwork 2">
+                <div class="overlay">
+                    <h3>Chevy Impala</h3>
+                </div>
+            </div>
+            <div class="gallery-item" onclick="openModal('intconst.png')">
+                <img src="intconst.png" alt="Artwork 3">
+                <div class="overlay">
+                    <h3>Robot</h3>
+                </div>
+            </div>
+            <div class="gallery-item" onclick="openModal('mb.png')">
+                <img src="mb.png" alt="Artwork 1">
+                <div class="overlay">
+                    <h3>Monobike</h3>
+                </div>
+            </div>
+            <div class="gallery-item" onclick="openModal('piston part.png')">
+                <img src="piston part.png" alt="Artwork 2">
+                <div class="overlay">
+                    <h3>3 Piston Engine</h3>
+                </div>
+            </div>
+            <div class="gallery-item" onclick="openModal('renderfinallancerevo-2.jpg')">
+                <img src="renderfinallancerevo-2.jpg" alt="Artwork 3">
+                <div class="overlay">
+                    <h3>Lancer Evo</h3>
+                </div>
+            </div>
+            <div class="gallery-item" onclick="openModal('sally carrera.png')">
+                <img src="sally carrera.png" alt="Artwork 1">
+                <div class="overlay">
+                    <h3>Sally Carrera</h3>
+                </div>
+            </div>
+            <div class="gallery-item" onclick="openModal('Screenshot 2023-03-19 at 1.05.45 PM.png')">
+                <img src="Screenshot 2023-03-19 at 1.05.45 PM.png" alt="Artwork 2">
+                <div class="overlay">
+                    <h3>Robot</h3>
+                </div>
+            </div>
+            <div class="gallery-item" onclick="openModal('Screenshot 2023-05-10 at 5.15.25 AM.png')">
+                <img src="Screenshot 2023-05-10 at 5.15.25 AM.png" alt="Artwork 3">
+                <div class="overlay">
+                    <h3>Sword</h3>
+                </div>
+            </div>
+            <div class="gallery-item" onclick="openModal('spaceship in 8k quality.png')">
+                <img src="spaceship in 8k quality.png" alt="Artwork 1">
+                <div class="overlay">
+                    <h3>Spaceship</h3>
+                </div>
+            </div>
+            <div class="gallery-item" onclick="openModal('untitleddxgfxg.png')">
+                <img src="untitleddxgfxg.png" alt="Artwork 2">
+                <div class="overlay">
+                    <h3>Robot in 0g</h3>
+                </div>
+            </div>
+            <div class="gallery-item" onclick="openModal('well.png')">
+                <img src="well.png" alt="Artwork 3">
+                <div class="overlay">
+                    <h3>Mystical Well</h3>
+                </div>
+            </div>
+            <div class="gallery-item" onclick="openModal('V12NEW.png')">
+                <img src="V12NEW.png" alt="Artwork 1">
+                <div class="overlay">
+                    <h3>V12 Engine</h3>
+                </div>
+            </div>
+            <div class="gallery-item" onclick="openModal('product.png')">
+                <img src="product.png" alt="Artwork 2">
+                <div class="overlay">
+                    <h3>Device</h3>
+                </div>
+            </div>
+            <div class="gallery-item" onclick="openModal('communincation.png')">
+                <img src="communincation.png" alt="Artwork 3">
+                <div class="overlay">
+                    <h3>Futuristic glasses</h3>
+                </div>
+            </div>
+            <!-- Add more gallery items as needed -->
+        </div>
+    </section>
+
+    <section id="contact" style="color: aliceblue;">
+        <h2>Contact Me</h2>
+        <div class="contact-options">
+            <p>You can reach me through the following:</p>
+            <ul>
+                <li ><a href="mailto:chahalpranav2312@gmail.com" target="_blank">Email Me</a></li>
+                <li><a href="https://www.linkedin.com/in/pranav-chahal/" target="_blank">LinkedIn</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Pranav Chahal.</p>
+    </footer>
+
+    <!-- Modal for enlarged image -->
+    <div id="modal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
